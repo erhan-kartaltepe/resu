@@ -1,6 +1,34 @@
 {
-  id: {
-    name: 'John Smith'
+  "modes" : {
+    "titles": ["director", "manager", "developer" ],
+    "skills": ["Java", "Python", "C#"]
+  },
 
+  "id": {
+    "name": "John Smith",
+    "address": "Seattle, WA",
+    "phone": "999-987-6543",
+    "headers": [ { "mode": "director", "heading": "Principal Director and Enterprise Architect" },
+                 { "mode": "developer", "heading": "Principal Developer and Enterprise Architect" } ]
+    },
+
+  "technical_skills":
+          [
+            { "languages": "Java, C#, C/C++, JavaScript, TypeScript, SQL, Objective-C, HTML5, XML, XAML, Python, PHP" },
+            { "data" : "SQL Server, MySQL, SQL Azure, PostgreSQL, MongoDB, DynamoDB, Oracle, SQLite, Hadoop" },
+            { "cloud" : "Microsoft Azure, Amazon AWS, Amazon Lambda, Google App Engine, SalesForce" },
+            { "web_development" : "ASP.NET MVC, Web API, Angular, JQuery, Node.js, Knockout, Silverlight, WCF" },
+            { "mobile_development" : "Android, Alexa, iOS, Windows UAP" }
+          ],
+
+  "work" : {
+    "name" : "Company 1",
+    "title": "L7 Director",
+    "dates": "January 2016-Present",
+    "activities":
+    {
+      "modes" : ["director", "manager"],
+      "line": "Led four teams."
+    }
   }
 }
